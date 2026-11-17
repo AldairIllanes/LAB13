@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.lab13.ejercicios.Ejercicio1AnimatedVisibility
 import com.example.lab13.ejercicios.Ejercicio2ColorAnimation
+import com.example.lab13.ejercicios.Ejercicio3Screen
 import com.example.lab13.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -82,6 +83,7 @@ fun MainLabScreen() {
             when (ejercicioActual) {
                 1 -> Ejercicio1AnimatedVisibility()
                 2 -> Ejercicio2ColorAnimation()
+                3 -> Ejercicio3Screen()
                 else -> {
                     // Placeholder temporal para los siguientes ejercicios
                     Box(
