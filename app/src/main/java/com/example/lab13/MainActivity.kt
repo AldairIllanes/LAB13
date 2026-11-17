@@ -25,6 +25,7 @@ import com.example.lab13.ejercicios.Ejercicio1AnimatedVisibility
 import com.example.lab13.ejercicios.Ejercicio2ColorAnimation
 import com.example.lab13.ejercicios.Ejercicio3Screen
 import com.example.lab13.ejercicios.Ejercicio4Screen
+import com.example.lab13.ejercicios.Ejercicio5Screen
 import com.example.lab13.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -86,6 +87,7 @@ fun MainLabScreen() {
                 2 -> Ejercicio2ColorAnimation()
                 3 -> Ejercicio3Screen()
                 4 -> Ejercicio4Screen()
+                5 -> Ejercicio5Screen()
                 else -> {
                     // Placeholder temporal para los siguientes ejercicios
                     Box(
