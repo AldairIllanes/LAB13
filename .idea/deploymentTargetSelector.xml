@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-11-13T21:14:27.357316400Z">
+        <DropdownSelection timestamp="2026-11-17T14:34:30.852577Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\NITRO\.android\avd\Small_Phone.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\NITRO\.android\avd\Medium_Phone.avd" />
             </handle>
           </Target>
         </DropdownSelection>
